@@ -8,6 +8,7 @@ import (
 	"gorm.io/gorm"
 )
 
+// Product represents of name and brand of product
 type Product struct {
 	ID        uint   `gorm:"primaryKey"`
 	Name      string `gorm:"not null;type:varchar(191)"`
